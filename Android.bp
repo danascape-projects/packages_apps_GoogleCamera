@@ -1,0 +1,10 @@
+android_app_import {
+	name: "GoogleCamera",
+	apk: "prebuilt/product/app/GoogleCamera/GoogleCamera.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+    overrides: ["Camera2", "Snap", "SnapdragonCamera"],
+}
